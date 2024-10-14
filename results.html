@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Results</title>
+</head>
+
+<body>
+    <h2>Results for "{{ query }}"</h2>
+    <ul>
+        {% for doc, url, score in results %}
+        <li>
+            <a href="{{ url }}" target="_blank">{{ doc }}</a> - Score: {{ score }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
