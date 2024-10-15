@@ -1,4 +1,5 @@
-Project Overview
+Project Overview:
+
 The NLP Enhanced Search Engine for the University of Memphis is a web-crawling application designed to facilitate efficient information retrieval from the University of Memphis website. This project employs natural language processing (NLP) techniques to extract, index, and manage content from various web pages, enabling improved search capabilities.
 
 web_scraper.py
